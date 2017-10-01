@@ -1,0 +1,5 @@
+#!/bin/bash
+PWD=`pwd`
+
+# add our utils to the PATH in bashrc
+echo "PATH=${PWD}/bin:"'$PATH' >> ~/.bashrc
