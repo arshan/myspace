@@ -9,4 +9,9 @@ sudo add-apt-repository \
    stable"
 sudo apt-get update
 sudo apt-get install docker-ce
+docker run hello-world
+docker pull ubuntu
 
+echo "IF DOCKER INSTALLED YOU SHOULD SEE A ROOT SHELL BELOW ... "
+echo " please 'exit' when your ready "
+sudo docker run -it ubuntu bash
