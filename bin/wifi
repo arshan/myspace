@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "available devices"
+nmcli d s
+
+echo ---
+
+echo "wireless networks"
+nmcli d w
+
+echo ---
