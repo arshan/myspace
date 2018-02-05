@@ -8,3 +8,4 @@ sudo apt-get install emacs build-essential
 
 # ssh 
 sudo apt-get install ssh
+sudo apt-get install htop
