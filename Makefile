@@ -1,6 +1,8 @@
 default: home
 
 base:
+	sudo apt-get update
+	sudo apt-get upgrade
 	sh ./scripts/base.sh
 
 workstation:
