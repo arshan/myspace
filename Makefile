@@ -6,6 +6,9 @@ base:
 workstation:
 	sh ./scripts/docker.sh
 
+nvidia:
+	sh ./scripts/nvidia.sh
+
 home: base
 	chmod +x ./bin/*
 	./bin/hangyourhat
