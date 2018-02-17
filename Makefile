@@ -6,6 +6,7 @@ base:
 	sh ./scripts/base.sh
 
 workstation:
+	sh ./scripts/gui.sh
 	sh ./scripts/docker.sh
 
 nvidia:
