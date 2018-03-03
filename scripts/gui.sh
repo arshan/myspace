@@ -1,5 +1,5 @@
-sudo apt-get install chromium-browser
-sudo apt-get install gkrellm
-sudo apt-get install emacs vim
-sudo apt-get install xtightvncviewer
+sudo apt-get -y install chromium-browser
+sudo apt-get -y install gkrellm
+sudo apt-get -y install emacs vim terminator 
+sudo apt-get -y install xtightvncviewer
 

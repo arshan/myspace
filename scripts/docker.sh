@@ -1,4 +1,4 @@
-sudo apt-get install apt-transport-https \
+sudo apt-get -y install apt-transport-https \
     ca-certificates \
     curl \
     software-properties-common
@@ -8,7 +8,7 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get update
-sudo apt-get install docker-ce
+sudo apt-get -y install docker-ce
 docker run hello-world
 docker pull ubuntu
 
