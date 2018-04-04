@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "available devices"
+nmcli d s
+
+echo ---
+
+echo "wireless networks"
+nmcli d w
+
+echo ---
+
+nmcli d w connect $1 password $2
+
