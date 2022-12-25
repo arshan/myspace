@@ -6,9 +6,11 @@ git config --global user.name "arshan"
 # basic build tools
 sudo apt-get -y install emacs build-essential net-tools
 
-# ssh 
-sudo apt-get -y install ssh
-sudo apt-get -y install htop
+# ssh, and variants for distributed or dodgy links
+sudo apt-get -y install ssh mosh dsh
 
-# utils
-sudo apt-get -y install screen
+# htop and variant
+sudo apt-get -y install htop bashtop
+
+# utils for terminals
+sudo apt-get -y install screen tmux
